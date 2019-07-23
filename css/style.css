@@ -1,0 +1,160 @@
+.navbar-dark {
+  color: red !important;
+  background-color: navy !important;
+  border-bottom: red solid;
+}
+
+.nav-link {
+  color: red !important;
+}
+
+i {
+  padding: 7px 7px 7px 7px;
+}
+
+.dropdown-menu {
+  background-color: navy;
+}
+
+.dropdown-menu:hover {
+  background-color: navy;
+}
+
+.dropdown-item {
+  color: red !important;
+  background-color: navy;
+}
+
+.dropdown-item:hover {
+  color: navy !important;
+  background-color: red;
+}
+
+ul.list-group {
+  background-color: navy;
+  color: red;
+}
+
+li.list-group-item {
+  background-color: navy;
+  color: white;
+}
+
+.card {
+  background-color: navy;
+  color: white;
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+}
+
+/* general styles */
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+/* padded section */
+.pad-section {
+  padding: 50px 0;
+}
+.pad-section img {
+  width: 100%;
+}
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+/* additional sections */
+#home {
+  background: url(../img/background_03.jpg) no-repeat center fixed;
+  display: table;
+  height: 750px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#about {
+  background-color: red;
+  color: navy;
+}
+
+#contact {
+  color: red;
+  background-color: navy;
+}
+
+.contactEle {
+  color: red;
+}
+
+.contacts {
+  border: red solid;
+  padding-top: 10px;
+}
+
+.messageBox {
+  border: red solid;
+  padding-top: 10px;
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+
+h1,
+h3,
+h2 {
+  color: navy;
+}
+
+#information {
+  background: url(../img/background_01.jpg) no-repeat center center fixed;
+  display: table;
+  height: 300px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#information .panel {
+  opacity: 0.85;
+}
+
+footer {
+  padding: 20px 0;
+}
+footer .glyphicon {
+  color: #333333;
+  font-size: 60px;
+}
+footer .glyphicon:hover {
+  color: #306d9f;
+}
+
+.fb {
+	height: 550px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+  border-top: navy solid;
+}
